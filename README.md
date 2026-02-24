@@ -197,7 +197,7 @@ docker logs nginx-container
 # 📎 Live Access
 
 ```
-http://<EC2_PUBLIC_IP>
+http://<EC2_ELASTIC_IP>
 ```
 
 ---
