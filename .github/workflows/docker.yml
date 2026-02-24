@@ -20,13 +20,13 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Backend Image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/dd-backend ./backend
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/dd-backend ./crud-dd-task-mean-app/backend
 
       - name: Push Backend Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/dd-backend
 
       - name: Build Frontend Image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/dd-frontend ./frontend
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/dd-frontend ./crud-dd-task-mean-app/frontend
 
       - name: Push Frontend Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/dd-frontend
