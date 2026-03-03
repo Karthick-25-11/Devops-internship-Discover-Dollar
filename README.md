@@ -87,6 +87,9 @@ I configured Nginx inside a container to act as a reverse proxy.
 * Route traffic from port 80.
 * Forward requests to frontend/backend services.
 * Make the entire application accessible via:
+```
+http://<EC2_PUBLIC_IP>
+```
 
 ---
 
@@ -112,9 +115,6 @@ When I push code to `main`:
 This removed the need for manual deployment.
 
 ---
-```
-http://<EC2_PUBLIC_IP>
-```
 
 ---
 
