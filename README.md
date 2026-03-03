@@ -37,12 +37,12 @@ I created Dockerfiles for:
 
 Then I built Docker images and pushed them to Docker Hub:
 
- commands : * docker build -t dd-backend ./backend
-            * docker build -t dd-frontend ./frontend
-            * docker tag dd-backend karthick2511/dd-backend:latest
-            * docker push karthick2511/dd-backend
-            * docker tag dd-frontend karthick2511/dd-frontend:latest
-            * docker push karthick2511/dd-frontend
+ * docker build -t dd-backend ./backend
+ * docker build -t dd-frontend ./frontend
+ * docker tag dd-backend karthick2511/dd-backend:latest
+ * docker push karthick2511/dd-backend
+ * docker tag dd-frontend karthick2511/dd-frontend:latest
+ * docker push karthick2511/dd-frontend
 
 ```
 karthick2511/dd-backend
